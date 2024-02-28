@@ -3,6 +3,39 @@ body {
     display: flex;
     background-color: #ffffff;
     font-size: 16px;
+    position: relative ;
+}
+.logo-img {
+    background-image: url("pngwing.com.png");
+    height: 70px;
+    width: 94px ;
+    /* border-radius: 50%; */
+    position: absolute ;
+    top : 170px ;
+    left : 100px ;
+}
+.image {
+    background-image: url("charles-postiaux-f51ThFXARAc-unsplash.jpg");
+    height: 100vh;
+    width : 70vw;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: flex-start;
+    box-shadow: 1px 1px 10px black;
+}
+.logo {
+    height: 100px ;
+    font-family : 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    width : 500px ;
+    display: flex;
+    margin-top : 30% ;
+    justify-content: center;
+    align-items: center;
+    font-size :32px ;
+    background: rgba(0, 0, 0, 0.3);
+    color : white ;
 }
 img {
     height: 100vh;
@@ -43,6 +76,11 @@ input {
     border-radius: 3px;
     padding : 7px ;
     font-size: 14px;
+    appearance: none;
+}
+input:focus {
+     border : 1px solid lightblue ;
+     outline: none;
 }
 button {
     margin-top : 20px;
