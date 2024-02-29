@@ -1,1 +1,3 @@
 # Sign-up-Form
+
+This project is a part of the Odin Project Curriculum. It was a great way to improve my CSS skills and work with newly learned form elements in HTML, as well as to learn about the validation that HTML provides on the client side. I got exposed to various form-control elements and, more importantly, learned how to style those form elements. I also leveraged the use of various types of positioning in CSS to fix the logo as absolute. Additionally, there's a naive implementation for password checking in case the user enters a different password in the confirm-password field.
