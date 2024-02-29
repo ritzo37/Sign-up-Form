@@ -5,6 +5,9 @@ body {
     font-size: 16px;
     position: relative ;
 }
+#confirm-password span {
+    
+}
 .logo-img {
     background-image: url("pngwing.com.png");
     height: 70px;
