@@ -5,9 +5,7 @@ body {
     font-size: 16px;
     position: relative ;
 }
-#confirm-password span {
-    
-}
+
 .logo-img {
     background-image: url("pngwing.com.png");
     height: 70px;
@@ -18,7 +16,7 @@ body {
     left : 100px ;
 }
 .image {
-    background-image: url("charles-postiaux-f51ThFXARAc-unsplash.jpg");
+    background-image: url("img/charles-postiaux-f51ThFXARAc-unsplash.jpg");
     height: 100vh;
     width : 70vw;
     background-position: center;
